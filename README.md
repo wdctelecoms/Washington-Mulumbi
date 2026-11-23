@@ -1,29 +1,22 @@
-# Sunday Mwanza — Personal Leadership Website
+# Washington — Personal Portfolio
 
-A professional, mobile-first personal website for **Sunday Mwanza**.
+A responsive personal portfolio for **Washington**, a Zambia-based technology entrepreneur and software developer.
 
-## Sections
-- About Me
-- My Leadership
-- Projects & Programs
-- Achievements
-- Gallery
-- Contact Me
+## Website sections
+- Introduction and personal profile
+- Areas of interest: software development, fintech, cybersecurity and digital growth
+- Selected work: FINShield AI, Zambian Marketplace and Cyber Sentinel 360
+- Washington Digital Company (WDC)
+- Contact and collaboration
 
-## Purpose
-The site is structured as a personal brand and portfolio hub so organisations, clubs, partners and other visitors can quickly understand who Sunday Mwanza is, what he stands for, the work he has done and how to connect with him.
+## Technology
+This is a lightweight static website built with HTML, CSS and JavaScript. It can be deployed on Vercel or GitHub Pages without a build step.
 
-## Google visibility
-The page includes a clear `Sunday Mwanza` name in the title, headings, description and structured Person data. This helps search engines understand the page, but Google ranking/indexing cannot be guaranteed by the website alone. Search Console and a verified live domain should be used after deployment.
+## Run locally
+Open `index.html` in a browser, or serve the folder with any static web server.
 
-## Personalisation still needed
-Replace the photo placeholder and sample section text with Sunday Mwanza's verified:
-- leadership positions and dates
-- achievements and awards
-- projects and programmes
-- organisations and clubs
-- gallery photographs
-- email, phone and social links
+## Personalisation
+The portfolio uses the image and logo assets already included in this repository. Add verified biography details, project milestones, direct contact information and social profiles as they become available. Project descriptions intentionally identify the products as being in development; no unverified awards, registrations or credentials are claimed.
 
 ## Deployment
-Static HTML/CSS/JS. Ready for GitHub Pages or Vercel.
+Connect this repository to Vercel and use the project root as the output directory. No framework preset or build command is required.
