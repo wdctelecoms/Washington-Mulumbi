@@ -6,3 +6,113 @@
 .brand-logo{display:block;width:112px;height:72px;object-fit:contain;object-position:left center}
 .footer .brand-logo{width:126px;height:74px}
 @media(max-width:760px){.brand-logo{width:100px;height:64px}.footer .brand-logo{width:118px;height:70px}}
+
+
+/* === WASHINGTON MULUMBI: MIDNIGHT NAVY + CHAMPAGNE GOLD === */
+:root{
+ --red:#b9975b;--deep:#0b1424;--ink:#f8f6f0;--muted:#c8c2b6;
+ --line:rgba(201,174,125,.24);--black:#070d18;
+ --gold:#c9aa70;--gold-light:#e4d1a6;--navy:#0b1424;--navy-soft:#15243a;
+ --paper:#f4f1e9;--text:#172235;--body-muted:#687386;
+}
+body{background:var(--paper);color:var(--text)}
+.site-header{background:rgba(7,13,24,.76);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(201,170,112,.22)}
+.links a:hover{color:var(--gold-light)}
+.nav-cta span{color:var(--gold-light)}
+.hero{background:radial-gradient(ellipse at 76% 35%,rgba(201,170,112,.22),transparent 30%),radial-gradient(ellipse at 15% 90%,rgba(48,75,112,.26),transparent 45%),linear-gradient(120deg,#070d18 0%,#101e33 56%,#0b1424 100%)}
+.hero:before{background-image:linear-gradient(rgba(201,170,112,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(201,170,112,.10) 1px,transparent 1px);opacity:.52}
+.hero:after{color:rgba(201,170,112,.055)}
+.hero .eyebrow{color:var(--gold-light)}
+.status-dot{background:var(--gold);box-shadow:0 0 0 4px rgba(201,170,112,.17)}
+.hero h1 span{color:var(--gold)}
+.hero-lead{color:#c5cbd5}
+.button-primary{background:var(--gold);color:#101827}
+.button-primary:hover{background:var(--gold-light);box-shadow:0 12px 35px rgba(201,170,112,.22)}
+.button-secondary{border-color:rgba(228,209,166,.55);color:#f7f4ed}
+.button-secondary:hover{background:rgba(201,170,112,.1);border-color:var(--gold)}
+.hero-meta,.hero-bottom{color:#b9b3a7}
+.image-frame{box-shadow:0 35px 90px rgba(0,0,0,.45),0 0 0 1px rgba(201,170,112,.28)}
+.image-frame:before{border-color:rgba(201,170,112,.62)}
+.visual-note{background:#f4f1e9;color:#101827}
+.note-line{background:var(--gold)}
+.visual-note small{color:#77705f}
+.orbit{border-color:rgba(201,170,112,.23)}
+.visual-index,.hero-sideword{color:var(--gold-light)}
+.hero-bottom{border-color:rgba(201,170,112,.22)}
+.about,.contact{background:var(--paper)}
+.section h2 span,.contact h2 span{color:#a98549}
+.about-copy{color:#657083}
+.about-copy .intro{color:#172235}
+.text-link{color:#94713b;border-color:#c9b58d}
+.focus{background:#0b1424;color:#f8f6f0}
+.focus .eyebrow,.work .eyebrow{color:var(--gold)}
+.section-heading>p{color:#aeb8c7}
+.focus .section-heading h2 span{color:var(--gold)}
+.focus-grid{background:rgba(201,170,112,.22);border-color:rgba(201,170,112,.22)}
+.focus-card{background:#101e33}
+.focus-card:hover{background:#192b45}
+.focus-no,.focus-foot{color:#b5a17b}
+.focus-icon{color:var(--gold)}
+.focus-card p{color:#c1c9d4}
+.work{background:#eeece5}
+.work .section-heading>p{color:#6f7887}
+.work-list{border-color:#d4cdbd}
+.work-item{border-color:#d4cdbd}
+.work-number{color:#a98549}
+.work-type{color:#6b7180}
+.work-status{color:#72572c;background:#e7dcc4}
+.work-main p{color:#687386}
+.tags span{color:#4e5969;background:#e2dfd5}
+.work-arrow{border-color:#c7b995;color:#8d6c36}
+.work-arrow:hover{background:#15243a;color:#e4d1a6;border-color:#15243a}
+.wdc{background:radial-gradient(ellipse at 80% 50%,rgba(201,170,112,.13),transparent 32%),linear-gradient(115deg,#070d18,#14243a 62%,#0b1424)}
+.wdc:after{color:rgba(201,170,112,.055)}
+.wdc-symbol,.wdc h2 span{color:var(--gold)}
+.wdc .eyebrow{color:var(--gold-light)}
+.wdc-copy>p:not(.eyebrow){color:#c5cbd5}
+.button-light{background:var(--gold);color:#101827}
+.button-light:hover{background:var(--gold-light)}
+.wdc-side{color:var(--gold-light);border-color:rgba(201,170,112,.35)}
+.wdc-side span{color:#b9b3a7}
+.contact-inner>p:not(.eyebrow){color:#687386}
+.contact .button{background:var(--navy);color:var(--gold-light)}
+.contact .button:hover{background:#172a44}
+.contact-caption{color:#8b887e}
+footer{background:#070d18;color:#b9c0cb;border-top:1px solid rgba(201,170,112,.18)}
+.footer .brand-logo{filter:drop-shadow(0 3px 12px rgba(201,170,112,.08))}
+.back-top{color:var(--gold-light)}
+.brand-logo{filter:drop-shadow(0 2px 8px rgba(0,0,0,.15))}
+/* Refined motion: restrained, smooth, and respectful of reduced-motion settings */
+.scroll-progress{position:fixed;z-index:100;top:0;left:0;width:0;height:2px;background:linear-gradient(90deg,#9c7b45,#ead6a7);box-shadow:0 0 12px rgba(201,170,112,.55)}
+.hero-copy{animation:heroEnter .9s cubic-bezier(.2,.7,.2,1) both}
+.hero-visual{animation:visualEnter 1.15s .12s cubic-bezier(.2,.7,.2,1) both}
+.image-frame{animation:portraitFloat 7s ease-in-out 1.2s infinite}
+.orbit-one{animation:orbitSpin 34s linear infinite}
+.orbit-two{animation:orbitSpin 48s linear infinite reverse}
+.status-dot{animation:statusPulse 2.8s ease-in-out infinite}
+.hero-sideword{animation:softGlow 5s ease-in-out infinite}
+.button{transition:transform .35s cubic-bezier(.2,.8,.2,1),background .3s ease,box-shadow .3s ease,border-color .3s ease}
+.focus-card{transition:transform .45s cubic-bezier(.2,.8,.2,1),background .3s ease,box-shadow .35s ease}
+.focus-card:hover{transform:translateY(-8px);box-shadow:0 20px 45px rgba(0,0,0,.2)}
+.work-item{transition:padding .35s ease,background .35s ease}
+.work-item:hover{padding-left:12px;padding-right:12px;background:rgba(201,170,112,.07)}
+.work-arrow{transition:transform .3s ease,background .3s ease,color .3s ease}
+.work-item:hover .work-arrow{transform:translate(3px,-3px)}
+.brand-logo{transition:transform .35s ease,filter .35s ease}
+.brand:hover .brand-logo{transform:scale(1.035);filter:drop-shadow(0 5px 14px rgba(201,170,112,.25))}
+.scroll-reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.scroll-reveal.is-visible{opacity:1;transform:translateY(0)}
+.focus-card.scroll-reveal:nth-child(2){transition-delay:.08s}
+.focus-card.scroll-reveal:nth-child(3){transition-delay:.16s}
+.focus-card.scroll-reveal:nth-child(4){transition-delay:.24s}
+.work-item.scroll-reveal:nth-child(2){transition-delay:.1s}
+.work-item.scroll-reveal:nth-child(3){transition-delay:.2s}
+@keyframes heroEnter{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes visualEnter{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:translateX(0)}}
+@keyframes portraitFloat{0%,100%{transform:translateY(-48%) rotate(2deg)}50%{transform:translateY(calc(-48% - 9px)) rotate(1deg)}}
+@keyframes orbitSpin{to{transform:rotate(360deg)}}
+@keyframes statusPulse{0%,100%{box-shadow:0 0 0 4px rgba(201,170,112,.17)}50%{box-shadow:0 0 0 8px rgba(201,170,112,0)}}
+@keyframes softGlow{0%,100%{opacity:.82}50%{opacity:1}}
+@media(max-width:760px){.links{background:rgba(7,13,24,.97);border-color:rgba(201,170,112,.25)}.image-frame{animation:portraitFloatMobile 7s ease-in-out 1.2s infinite}}
+@keyframes portraitFloatMobile{0%,100%{transform:translateY(-48%) rotate(2deg)}50%{transform:translateY(calc(-48% - 7px)) rotate(1deg)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.scroll-reveal{opacity:1;transform:none}}
